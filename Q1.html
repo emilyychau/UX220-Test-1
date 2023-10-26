@@ -5,35 +5,45 @@
             a) Use css to display a paragraph about the inventor of the web, Tim Berners Lee. The text should be dark grey but not quite black.
             b) Modify the picture to be a picture of Tim Berners Lee, that is accessible to a screen reader. 
         -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
         <title>Question 1</title>
         <style>
-            h1, h2{font-family: 'Raleway', 'sans-serif'; text-align: center;}
-            p {color: #333;}
-            footer{font-family: 'Raleway', 'sans-serif'; text-align: center;}
+            h1, h2, footer{font-family: 'Raleway', 'sans-serif'; text-align: center;}
             li {
             font-family: 'Raleway', 'sans-serif'; display: inline;
                 margin-right: 20px;
                 text-align: center;
                 font-size: 14px;
             }
-            a {
-                font-family: 'Raleway', 'sans-serif';
-                color: #333;
-                }
+            a {text-align: center; font-family: 'Raleway', 'sans-serif'; color: #333;}
+            #text_column_left {
+            text-align: left;
+            color: #333;
+            width: 100%; 
+            padding-bottom: 30px;
+            padding-left: 20px
+        }
+        #poster_column_right{
+            float: right;
+            float: top;
+            padding-right: 20px;}
         </style>
     </head>
     <body>
         <h1>Question One</h1>
         <h2>Tim Berners Lee</h2>
         <div id="poster_column_right">
-            <img src="https://static.wikia.nocookie.net/pitch-perfect/images/2/29/Pitch_Perfect.jpg" alt="Portrait of Tim Berners-Lee" style=padding-left:10px> </div>
+            <img src="https://cdn.britannica.com/73/78373-050-2D15D41C/Tim-Berners-Lee.jpg" alt="Portrait of Tim Berners-Lee next to an old desktop computer" width="300px" style=padding-left:10px> </div>
         <div id="text_column_left">
         <br>
-        <p>Tim Berners Lee was born in London, England on June 8th 1955. He is known as the inventor of the web, but he also founded/invented many other things, like the World Wide Web and the coding language of HTML. He's an honorarily on the board of Directors of the World Wide Web Consortium (W3C), an organization which he founded in 1994.  </p>
+        <p>Tim Berners-Lee was born in London, England on June 8th 1955 (Dennis, 2023). At CERN, he invented what we know as the world-wide web; he also founded/invented many other things like the the markup coding language of HTML (the language that I'm using to write this very assessment!). He's honorarily on the board of Directors of the World Wide Web Consortium (W3C), an organization dedicated to creating guidelines and standards that help make the internet and the web more accessible to all. </p><p>More information about the life and work of Sir Berners-Lee can be found through the <a href=https://www.w3.org/staff/?initial=b>W3C</a> website.</p>   <p>&ensp; Dennis, M. Aaron (2023, August 8). <i>Tim Berners-Lee. Encyclopedia Britannica.</i> <a href>https://www.britannica.com/biography/Tim-Berners-Lee</a></p></div>
+        
     </body>
     <footer>
         <hr>
-        <li><a target="_blank" rel="noopener" href="index.html">Return to Home</a></li><br>
-        &copy; Emily Chau 2023
+        <a target="_blank" rel="noopener" href="index.html">Return to Home</a>
+        | &copy; Emily Chau 2023
     </footer>
 </html>
